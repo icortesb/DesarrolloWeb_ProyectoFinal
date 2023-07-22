@@ -1,11 +1,12 @@
-
-
+* {
+  font-family: "Poppins", sans-serif;
+}
 
 /* Accordion */
 
 .accordion-container {
   width: 70vw;
-  margin: 0 auto;
+  margin: 30px auto 0;
 }
 
 /* Carrousel */
@@ -27,6 +28,10 @@
   bottom: 0;
 }
 
-.carousel-item img{
-    filter: brightness(70%);
+.carousel-item img {
+  filter: brightness(70%);
+}
+
+.footer-container {
+  color: #f7f7f7;
 }

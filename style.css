@@ -1,6 +1,18 @@
 /* Accordion */
 
-.accordion-container{
-    width: 70vw;
-    margin: 0 auto;
+.accordion-container {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+/* Carrousel */
+
+.carrousel-container {
+  width: 50svw;
+  margin: 30px auto 0;
+}
+
+.quote-container {
+  width: 50svw;
+  margin: 30px auto 0;
 }

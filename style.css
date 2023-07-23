@@ -109,10 +109,8 @@ main {
 }
 
 .form-container {
-  margin: 12px;
-  width: 40%;
-  /* border: 1px solid red; */
-  border-radius: 12px;
+  margin: 80px auto 0;
+  width: 80%;
 }
 
 .submit-ic {
@@ -121,24 +119,21 @@ main {
 
 /* Form */
 
-.faq-grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: "form img";
-  margin-top: 40px;
-}
-
-.foto-reserva-grid {
-  width: 700px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  grid-area: img;
-}
-
 .foto-reserva-grid img {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
+}
+
+.faq-page-container {
+  height: 100vh;
+  background-image: url(./assets/booking-fondo.jpg);
+}
+
+.form-card {
+  background-color: #f7f7f7ab;
+  border-radius: 24px;
+  width: 500px;
+  height: 600px;
+  margin: 90px auto 0;
 }

@@ -101,3 +101,14 @@
   grid-area: gallery;
   margin-left: 50px;
 }
+
+.form-container{
+    margin: 12px;
+    width: 40%;
+    /* border: 1px solid red; */
+    border-radius: 12px;
+}
+
+.submit-ic{
+    margin: 5px;
+}

@@ -58,6 +58,23 @@ main {
   position: relative;
   padding: 5px;
   width: 50%;
+  transition: transform 0.3s ease;
+}
+
+.img-destino-uno:hover{
+   transform: translate(-10px, -10px);
+}
+
+.img-destino-dos:hover{
+   transform: translate(10px, -10px);
+}
+
+.img-destino-tres:hover{
+   transform: translate(-10px, 10px);
+}
+
+.img-destino-cuatro:hover{
+   transform: translate(10px, 10px);
 }
 
 .img-container-destinos img {

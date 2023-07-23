@@ -11,8 +11,8 @@ main {
 /* Accordion */
 
 .accordion-container {
-  width: 70vw;
-  margin: 30px auto 0;
+  width: 40vw;
+  margin: 100px auto 0;
 }
 
 /* Carrousel */
@@ -113,10 +113,6 @@ main {
   width: 80%;
 }
 
-.submit-ic {
-  margin: 5px;
-}
-
 /* Form */
 
 .foto-reserva-grid img {
@@ -136,4 +132,11 @@ main {
   width: 500px;
   height: 600px;
   margin: 90px auto 0;
+}
+
+/* faq */
+
+.faq-questions {
+  width: 40vw;
+  margin: 20px auto 0;
 }

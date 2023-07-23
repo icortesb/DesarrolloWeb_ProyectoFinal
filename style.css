@@ -1,11 +1,11 @@
 * {
   font-family: "Poppins", sans-serif;
-   overflow-y: hidden;
+  overflow-y: hidden;
 }
 
 main {
   background-color: #f7f7f7;
-  min-height: 100svh;
+  min-height: 100vh;
   padding-bottom: 50px;
 }
 /* Accordion */

@@ -173,6 +173,8 @@ main {
 .card-alojamiento {
   border-radius: 16px;
   transition: transform 0.3s ease;
+  padding: 10px;
+  background-color: #ffc99a17;
 }
 
 .card-alojamiento:hover {
@@ -191,9 +193,9 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
-    "aside card-uno card-dos "
-    "aside card-tres card-cuatro "
-    "aside card-cinco card-seis";
+    " card-uno card-dos aside"
+    " card-tres card-cuatro aside"
+    " card-cinco card-seis aside";
   gap: 7px;
   margin-top: 20px;
 }
@@ -215,6 +217,17 @@ main {
 }
 .aside-alojamiento {
   grid-area: aside;
+  border-radius: 12px;
+  background-color: #ffc99a17;
+  padding: 10px;
+  margin: auto 0;
+  margin-left: 10px;
+  height: 90vh;
+  width: 30vw;
+}
+
+.aside-alojamiento h5 {
+  padding-bottom: 5px;
 }
 /* Card uno*/
 .card-title-grid-uno {

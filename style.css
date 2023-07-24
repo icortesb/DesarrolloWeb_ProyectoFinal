@@ -309,3 +309,7 @@ main {
 .header-card-seis {
   grid-area: head;
 }
+
+.card-text {
+  padding: 10px;
+}

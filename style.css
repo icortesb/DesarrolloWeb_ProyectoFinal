@@ -61,20 +61,20 @@ main {
   transition: transform 0.3s ease;
 }
 
-.img-destino-uno:hover{
-   transform: translate(-10px, -10px);
+.img-destino-uno:hover {
+  transform: translate(-10px, -10px);
 }
 
-.img-destino-dos:hover{
-   transform: translate(10px, -10px);
+.img-destino-dos:hover {
+  transform: translate(10px, -10px);
 }
 
-.img-destino-tres:hover{
-   transform: translate(-10px, 10px);
+.img-destino-tres:hover {
+  transform: translate(-10px, 10px);
 }
 
-.img-destino-cuatro:hover{
-   transform: translate(10px, 10px);
+.img-destino-cuatro:hover {
+  transform: translate(10px, 10px);
 }
 
 .img-container-destinos img {
@@ -158,12 +158,158 @@ main {
   margin: 20px auto 0;
 }
 
-.btn-faq{
+.btn-faq {
   margin: 0 auto;
 }
 
-.btn-faq-container{
+.btn-faq-container {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+
+/* Alojamiento */
+
+.card-alojamiento {
+  background-color: #f7f7f7ab;
+  border-radius: 16px;
+  /* width: 600px; */
+  border: 1px solid red;
+  background-color: #f7f7f7;
+}
+
+.img-alojamiento-container {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  overflow: hidden;
+}
+
+.card-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "aside card-uno card-dos "
+    "aside card-tres card-cuatro "
+    "aside card-cinco card-seis";
+  gap: 7px;
+  margin-top: 20px;
+}
+
+.card-uno {
+  border: 1px solid red;
+  grid-area: card-uno;
+}
+
+.card-dos {
+  border: 1px solid red;
+  grid-area: card-dos;
+}
+
+.card-tres {
+  border: 1px solid red;
+  grid-area: card-tres;
+}
+
+.card-cuatro {
+  border: 1px solid red;
+  grid-area: card-cuatro;
+}
+.aside-alojamiento {
+  border: 1px solid red;
+  grid-area: aside;
+}
+/* Card uno*/
+.card-title-grid-uno {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "img head";
+}
+
+.img-card-uno {
+  grid-area: img;
+}
+
+.header-card-uno {
+  grid-area: head;
+}
+/* Card dos*/
+
+.card-title-grid-dos {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "img head";
+}
+
+.img-card-dos {
+  grid-area: img;
+}
+
+.header-card-dos {
+  grid-area: head;
+}
+
+/* Card tres*/
+
+.card-title-grid-tres {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "img head";
+}
+
+.img-card-tres {
+  grid-area: img;
+}
+
+.header-card-tres {
+  grid-area: head;
+}
+
+/* Card cuatro*/
+
+.card-title-grid-cuatro {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "img head";
+}
+
+.img-card-cuatro {
+  grid-area: img;
+}
+
+.header-card-cuatro {
+  grid-area: head;
+}
+
+/* Card cinco*/
+
+.card-title-grid-cinco {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "img head";
+}
+
+.img-card-cinco {
+  grid-area: img;
+}
+
+.header-card-cinco {
+  grid-area: head;
+}
+
+/* Card seis */
+
+.card-title-grid-seis {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "img head";
+}
+
+.img-card-seis {
+  grid-area: img;
+}
+
+.header-card-seis {
+  grid-area: head;
 }

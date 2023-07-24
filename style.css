@@ -187,6 +187,11 @@ main {
   overflow: hidden;
 }
 
+.img-alojamiento-container img {
+  filter: brightness(70%);
+}
+
+
 .card-grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -201,6 +206,10 @@ main {
 .card-grid-container a {
   text-decoration: none;
   color: #212529;
+}
+
+.card-grid-container a:hover img{
+  filter: brightness(100%);
 }
 
 .card-uno {

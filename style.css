@@ -171,11 +171,12 @@ main {
 /* Alojamiento */
 
 .card-alojamiento {
-  background-color: #f7f7f7ab;
   border-radius: 16px;
-  /* width: 600px; */
-  border: 1px solid red;
-  background-color: #f7f7f7;
+  transition: transform 0.3s ease;
+}
+
+.card-alojamiento:hover {
+  transform: translate(-10px);
 }
 
 .img-alojamiento-container {
@@ -198,26 +199,21 @@ main {
 }
 
 .card-uno {
-  border: 1px solid red;
   grid-area: card-uno;
 }
 
 .card-dos {
-  border: 1px solid red;
   grid-area: card-dos;
 }
 
 .card-tres {
-  border: 1px solid red;
   grid-area: card-tres;
 }
 
 .card-cuatro {
-  border: 1px solid red;
   grid-area: card-cuatro;
 }
 .aside-alojamiento {
-  border: 1px solid red;
   grid-area: aside;
 }
 /* Card uno*/

@@ -157,3 +157,13 @@ main {
   width: 40vw;
   margin: 20px auto 0;
 }
+
+.btn-faq{
+  margin: 0 auto;
+}
+
+.btn-faq-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

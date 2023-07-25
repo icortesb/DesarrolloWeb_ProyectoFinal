@@ -375,7 +375,7 @@
   grid-template-areas: "card-uno card-dos card-tres card-cuatro";
   column-gap: 21px;
   width: 80vw;
-  }
+}
 
 .card-actividades-uno {
   grid-area: card-uno;
@@ -425,4 +425,55 @@
   display: flex;
   justify-content: center;
   margin-top: 2%;
+}
+
+/* Media queries */
+/* Small devices */
+@media (max-width: 576px) {
+  /* Alojamiento */
+
+  .card-grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, auto);
+    grid-template-areas:
+      " aside "
+      " card-uno "
+      " card-dos "
+      " card-tres "
+      " card-cuatro "
+      " card-cinco "
+      " card-seis ";
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .aside-alojamiento {
+    /* margin: auto 0; */
+    margin: 0 auto;
+    height: 90vh;
+    width: 90vw;
+    font-size: small;
+  }
+
+  .card-alojamiento {
+    font-size: small;
+  }
+
+  /* Actividades */
+
+  .actividades-grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+      "card-uno"
+      "card-dos"
+      "card-tres"
+      "card-cuatro";
+    column-gap: 0px;
+    row-gap: 5px;
+    width: 80vw;
+  }
+
+  
 }

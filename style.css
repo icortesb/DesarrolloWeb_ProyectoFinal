@@ -373,27 +373,56 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   grid-template-areas: "card-uno card-dos card-tres card-cuatro";
-  border: 1px solid red;
-  column-gap: 5px;
-}
+  column-gap: 21px;
+  width: 80vw;
+  }
 
 .card-actividades-uno {
   grid-area: card-uno;
+  background-image: url(./assets/paracaidismo.jpg);
+  background-size: cover;
 }
 
 .card-actividades-dos {
   grid-area: card-dos;
+  background-image: url(./assets/surf.jpg);
+  background-size: cover;
 }
 
 .card-actividades-tres {
   grid-area: card-tres;
+  background-image: url(./assets/buceo.jpg);
+  background-size: cover;
 }
 
 .card-actividades-cuatro {
   grid-area: card-cuatro;
+  background-image: url(./assets/escalada.jpg);
+  background-size: cover;
 }
 
 .card-actividades {
-  border: 1px solid red;
   height: 80vh;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transition: transform 0.3s ease;
+}
+
+.actividades-grid-container a:hover .card-actividades {
+  transform: translate(0px, -10px);
+}
+
+.btn-popover {
+  margin-bottom: 20px;
+}
+.btn-popover button {
+  color: #f7f7f7;
+}
+
+.actividades-flex-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
 }

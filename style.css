@@ -1,7 +1,8 @@
 * {
   font-family: "Poppins", sans-serif;
-  /* overflow-y: hidden; */
 }
+
+/* Index */
 
 /* Accordion */
 
@@ -35,8 +36,11 @@
   filter: brightness(70%);
 }
 
+/* Destinos */
+
 /* Flex container destinos */
-.flex-container-destinos {
+
+.destinos__flex-container {
   margin: 5px auto 0;
   display: flex;
   justify-content: center;
@@ -47,41 +51,41 @@
   flex-flow: wrap;
 }
 
-.img-container-destinos {
+.destinos__img-container {
   position: relative;
   padding: 5px;
   width: 50%;
   transition: transform 0.3s ease;
 }
 
-.img-destino-uno:hover {
+.destinos__img-uno:hover {
   transform: translate(-10px, -10px);
 }
 
-.img-destino-dos:hover {
+.destinos__img-dos:hover {
   transform: translate(10px, -10px);
 }
 
-.img-destino-tres:hover {
+.destinos__img-tres:hover {
   transform: translate(-10px, 10px);
 }
 
-.img-destino-cuatro:hover {
+.destinos__img-cuatro:hover {
   transform: translate(10px, 10px);
 }
 
-.img-container-destinos img {
+.destinos__img-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   filter: brightness(70%);
 }
 
-.img-container-destinos img:hover {
+.destinos__img-container img:hover {
   filter: brightness(90%);
 }
 
-.img-container-destinos span {
+.destinos__img-container span {
   color: #f7f7f7;
   position: absolute;
   bottom: 20%;
@@ -93,14 +97,14 @@
 
 /* Grid para el aside */
 
-.grid-container-destinos {
+.destinos__grid-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
   grid-template-areas: "aside gallery";
 }
 
-.aside {
+.destinos__aside {
   grid-area: aside;
   display: flex;
   text-align: justify;
@@ -108,14 +112,14 @@
   position: relative;
 }
 
-.aside p {
+.destinos__aside p {
   position: absolute;
   left: 50px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   color: #212529;
 }
 
-.gallery {
+.destinos__gallery {
   grid-area: gallery;
   margin-left: 50px;
 }
@@ -476,8 +480,4 @@
   }
 
   /* Destinos */
-
-  
-
-  
 }

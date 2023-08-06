@@ -5,6 +5,7 @@
 .footer__container {
   display: flex;
   justify-content: center;
+  align-items: center;
   position: fixed;
   bottom: 0px;
   color: #f7f7f7;
@@ -162,13 +163,15 @@
 .actividades__flex-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 2%;
 }
 .actividades__card {
-  height: 80vh;
-  border-radius: 12px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 80vh;
+  border-radius: 12px;
   align-items: flex-end;
   transition: transform 0.3s ease;
 }
@@ -202,7 +205,7 @@
   color: #f7f7f7;
 }
 
-.destinos___flex-container {
+.destinos__flex-container {
   margin: 5px auto 0;
   display: flex;
   justify-content: center;
@@ -212,34 +215,34 @@
   overflow: hidden;
   flex-flow: wrap;
 }
-.destinos___img-container {
+.destinos__img-container {
   position: relative;
   padding: 5px;
   width: 50%;
   transition: transform 0.3s ease;
 }
-.destinos___img-uno:hover {
+.destinos__img-uno:hover {
   transform: translate(-10px, -10px);
 }
-.destinos___img-dos:hover {
+.destinos__img-dos:hover {
   transform: translate(10px, -10px);
 }
-.destinos___img-tres:hover {
+.destinos__img-tres:hover {
   transform: translate(-10px, 10px);
 }
-.destinos___img-cuatro:hover {
+.destinos__img-cuatro:hover {
   transform: translate(10px, 10px);
 }
-.destinos___img-container img {
+.destinos__img-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   filter: brightness(70%);
 }
-.destinos___img-container img:hover {
+.destinos__img-container img:hover {
   filter: brightness(90%);
 }
-.destinos___img-container span {
+.destinos__img-container span {
   color: #f7f7f7;
   position: absolute;
   bottom: 20%;
@@ -255,10 +258,10 @@
   grid-template-areas: "aside gallery";
 }
 .destinos__aside {
-  grid-area: aside;
   display: flex;
-  text-align: justify;
+  justify-content: center;
   align-items: center;
+  grid-area: aside;
   position: relative;
 }
 .destinos__aside p {

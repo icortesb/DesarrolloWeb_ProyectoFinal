@@ -1,8 +1,7 @@
 // Footer
 
 .footer__container {
-  display: flex;
-  justify-content: center;
+  @include flex-center;
   position: fixed;
   bottom: 0px;
   color: $white;

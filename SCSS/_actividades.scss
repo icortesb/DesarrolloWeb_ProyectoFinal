@@ -11,16 +11,14 @@
   }
 
   &__flex-container {
-    display: flex;
-    justify-content: center;
+    @include flex-center;
     margin-top: 2%;
   }
 
   &__card {
+    @include flex-center;
     height: 80vh;
     border-radius: 12px;
-    display: flex;
-    justify-content: center;
     align-items: flex-end;
     transition: $transform;
 

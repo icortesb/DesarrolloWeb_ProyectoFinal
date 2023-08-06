@@ -1,0 +1,62 @@
+// Actividades
+
+.actividades {
+  &__grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "card-uno card-dos card-tres card-cuatro";
+    column-gap: 21px;
+    width: 80vw;
+  }
+
+  &__flex-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  &__card {
+    height: 80vh;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translate(0px, -10px);
+    }
+
+    &__uno {
+      grid-area: card-uno;
+      background-image: url(../assets/paracaidismo.jpg);
+      background-size: cover;
+    }
+
+    &__dos {
+      grid-area: card-dos;
+      background-image: url(../assets/surf.jpg);
+      background-size: cover;
+    }
+
+    &__tres {
+      grid-area: card-tres;
+      background-image: url(../assets/buceo.jpg);
+      background-size: cover;
+    }
+
+    &__cuatro {
+      grid-area: card-cuatro;
+      background-image: url(../assets/escalada.jpg);
+      background-size: cover;
+    }
+  }
+
+  &__btn {
+    margin-bottom: 20px;
+    button {
+      color: $white;
+    }
+  }
+}

@@ -373,7 +373,7 @@
 
 /* Actividades */
 
-.actividades-grid-container {
+.actividades__grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
@@ -382,31 +382,37 @@
   width: 80vw;
 }
 
-.card-actividades-uno {
+.actividades__flex-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.actividades__card__uno {
   grid-area: card-uno;
   background-image: url(../assets/paracaidismo.jpg);
   background-size: cover;
 }
 
-.card-actividades-dos {
+.actividades__card__dos {
   grid-area: card-dos;
   background-image: url(../assets/surf.jpg);
   background-size: cover;
 }
 
-.card-actividades-tres {
+.actividades__card__tres {
   grid-area: card-tres;
   background-image: url(../assets/buceo.jpg);
   background-size: cover;
 }
 
-.card-actividades-cuatro {
+.actividades__card__cuatro {
   grid-area: card-cuatro;
   background-image: url(../assets/escalada.jpg);
   background-size: cover;
 }
 
-.card-actividades {
+.actividades__card {
   height: 80vh;
   border-radius: 12px;
   display: flex;
@@ -415,22 +421,17 @@
   transition: transform 0.3s ease;
 }
 
-.actividades-grid-container a:hover .card-actividades {
+.actividades__grid-container a:hover .card-actividades {
   transform: translate(0px, -10px);
 }
 
-.btn-popover {
+.actividades__btn {
   margin-bottom: 20px;
 }
-.btn-popover button {
+.actividades__btn button {
   color: #f7f7f7;
 }
 
-.actividades-flex-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 2%;
-}
 
 /* Media queries */
 /* Small devices */

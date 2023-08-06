@@ -30,11 +30,57 @@
   filter: brightness(70%);
 }
 
-/* Destinos */
-/* Flex container destinos */
-.destinos {
-  /* Grid para el aside */
+.actividades__grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "card-uno card-dos card-tres card-cuatro";
+  column-gap: 21px;
+  width: 80vw;
 }
+.actividades__flex-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+.actividades__card {
+  height: 80vh;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transition: transform 0.3s ease;
+}
+.actividades__card:hover {
+  transform: translate(0px, -10px);
+}
+.actividades__card__uno {
+  grid-area: card-uno;
+  background-image: url(../assets/paracaidismo.jpg);
+  background-size: cover;
+}
+.actividades__card__dos {
+  grid-area: card-dos;
+  background-image: url(../assets/surf.jpg);
+  background-size: cover;
+}
+.actividades__card__tres {
+  grid-area: card-tres;
+  background-image: url(../assets/buceo.jpg);
+  background-size: cover;
+}
+.actividades__card__cuatro {
+  grid-area: card-cuatro;
+  background-image: url(../assets/escalada.jpg);
+  background-size: cover;
+}
+.actividades__btn {
+  margin-bottom: 20px;
+}
+.actividades__btn button {
+  color: #f7f7f7;
+}
+
 .destinos___flex-container {
   margin: 5px auto 0;
   display: flex;

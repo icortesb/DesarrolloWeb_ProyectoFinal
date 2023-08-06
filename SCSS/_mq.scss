@@ -51,17 +51,22 @@
 
   /* Actividades */
 
-  .actividades__grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, auto);
-    grid-template-areas:
-      "card-uno"
-      "card-dos"
-      "card-tres"
-      "card-cuatro";
-    column-gap: 0px;
-    row-gap: 5px;
-    width: 100vw;
+  .actividades {
+    &__grid-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, auto);
+      grid-template-areas:
+        "card-uno"
+        "card-dos"
+        "card-tres"
+        "card-cuatro";
+      row-gap: 5px;
+      width: 100vw;
+    }
+  }
+
+  .actividades__card:hover {
+    transform: none;
   }
 }

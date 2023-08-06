@@ -421,7 +421,7 @@
   transition: transform 0.3s ease;
 }
 
-.actividades__grid-container a:hover .card-actividades {
+.actividades__grid-container a:hover .actividades__card {
   transform: translate(0px, -10px);
 }
 

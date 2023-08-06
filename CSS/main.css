@@ -70,50 +70,20 @@
   padding: 10px;
 }
 
-.img-card-uno {
-  grid-area: img;
-}
-
-.body-card-uno {
-  grid-area: head;
-}
-
-.img-card-dos {
-  grid-area: img;
-}
-
-.body-card-dos {
-  grid-area: head;
-}
-
-.img-card-tres {
-  grid-area: img;
-}
-
-.body-card-tres {
-  grid-area: head;
-}
-
-.img-card-cuatro {
-  grid-area: img;
-}
-
-.body-card-cuatro {
-  grid-area: head;
-}
-
-.img-card-cinco {
-  grid-area: img;
-}
-
-.body-card-cinco {
-  grid-area: head;
-}
-
+.img-card-uno,
+.img-card-dos,
+.img-card-tres,
+.img-card-cuatro,
+.img-card-cinco,
 .img-card-seis {
   grid-area: img;
 }
 
+.body-card-uno,
+.body-card-dos,
+.body-card-tres,
+.body-card-cuatro,
+.body-card-cinco,
 .body-card-seis {
   grid-area: head;
 }

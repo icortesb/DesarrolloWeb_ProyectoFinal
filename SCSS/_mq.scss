@@ -3,6 +3,15 @@
 /* Small devices */
 
 @media (max-width: 576px) {
+  /* Index */
+  .carousel__container {
+    width: 100svw;
+  }
+
+  .quote__container {
+    width: 100svw;
+  }
+
   /* Alojamiento */
 
   .alojamiento {

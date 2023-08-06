@@ -1,0 +1,31 @@
+// Footer
+
+.footer__container {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0px;
+  color: $white;
+  width: 100%;
+}
+
+// Accordion
+
+.accordion_container {
+  width: 40vw;
+  margin: 100px auto 0;
+}
+
+// Carousel
+
+.carousel__container {
+  width: 50svw;
+  margin: 30px auto 0;
+}
+
+// Quote
+
+.quote__container {
+  width: 50svw;
+  margin: 30px auto 0;
+}

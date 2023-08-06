@@ -6,24 +6,24 @@
 
 /* Accordion */
 
-.accordion-container {
+.accordion__container {
   width: 40vw;
   margin: 100px auto 0;
 }
 
-/* Carrousel */
+/* Carousel */
 
-.carrousel-container {
+.carousel__container {
   width: 50svw;
   margin: 30px auto 0;
 }
 
-.quote-container {
+.quote__container {
   width: 50svw;
   margin: 30px auto 0;
 }
 
-.footer-container {
+.footer__container {
   display: flex;
   justify-content: center;
   position: fixed;
@@ -142,7 +142,7 @@
 .faq-page-container {
   height: 100vh;
   width: 100%;
-  background-image: url(./assets/booking-fondo.jpg);
+  background-image: url(../assets/booking-fondo.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -384,25 +384,25 @@
 
 .card-actividades-uno {
   grid-area: card-uno;
-  background-image: url(./assets/paracaidismo.jpg);
+  background-image: url(../assets/paracaidismo.jpg);
   background-size: cover;
 }
 
 .card-actividades-dos {
   grid-area: card-dos;
-  background-image: url(./assets/surf.jpg);
+  background-image: url(../assets/surf.jpg);
   background-size: cover;
 }
 
 .card-actividades-tres {
   grid-area: card-tres;
-  background-image: url(./assets/buceo.jpg);
+  background-image: url(../assets/buceo.jpg);
   background-size: cover;
 }
 
 .card-actividades-cuatro {
   grid-area: card-cuatro;
-  background-image: url(./assets/escalada.jpg);
+  background-image: url(../assets/escalada.jpg);
   background-size: cover;
 }
 
@@ -480,5 +480,4 @@
     width: 80vw;
   }
 
-  /* Destinos */
 }

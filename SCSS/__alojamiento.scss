@@ -103,7 +103,7 @@
   height: 90vh;
   width: 30vw;
   background-image: url(../assets/aside-alojamiento.jpg);
-  color: #212529;
+  color: $black;
 }
 
 .text-aside-container {
@@ -116,15 +116,14 @@
   grid-template-areas:
     "head"
     "body";
-  background-color: #f7f7f7ab;
-  color: #212529;
+  background-color: $grey;
+  color: $black;
 }
 
 .aside-alojamiento h5 {
   text-align: center;
   grid-area: head;
   padding: 5px;
-  /* margin-top: 20%; */
 }
 
 .aside-alojamiento p {

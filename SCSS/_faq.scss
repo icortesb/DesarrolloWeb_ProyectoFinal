@@ -1,0 +1,23 @@
+// FAQ
+
+.faq__grid-container {
+  @include grid(1, 2, 20px);
+  grid-template-areas:
+    "faq"
+    "questions";
+}
+
+.faq__questions {
+  grid-area: faq;
+  width: 80vw;
+  margin: 1.5em auto 0;
+}
+
+.faq__btn-container {
+  @include flex-center;
+  grid-area: questions;
+  margin-top: 20px;
+  & button {
+    margin: 0 auto;
+  }
+}

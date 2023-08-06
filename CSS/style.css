@@ -7,8 +7,8 @@
 /* Accordion */
 
 .accordion__container {
-  width: 40vw;
-  margin: 100px auto 0;
+  width: 60vw;
+  margin: 2em auto 0;
 }
 
 /* Carousel */
@@ -125,7 +125,7 @@
 }
 
 
-/* Form */
+/* Reserva */
 
 .form-container {
   width: 80%;
@@ -161,10 +161,10 @@
   align-items: center;
 }
 
-/* faq */
+/* FAQ */
 
 .faq-questions {
-  width: 40vw;
+  width: 60vw;
   margin: 20px auto 0;
 }
 

@@ -1,6 +1,7 @@
 @mixin grid($columns, $rows, $gap) {
   display: grid;
   grid-template-columns: repeat($columns, 1fr);
+  grid-template-rows: repeat($rows, 1fr);
   grid-gap: $gap;
 }
 
@@ -8,4 +9,10 @@
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-areas: "img head";
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

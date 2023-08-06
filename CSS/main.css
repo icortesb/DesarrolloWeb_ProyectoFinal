@@ -11,9 +11,9 @@
   width: 100%;
 }
 
-.accordion_container {
-  width: 40vw;
-  margin: 100px auto 0;
+.accordion__container {
+  width: 80vw;
+  margin: 2em auto 0;
 }
 
 .carousel__container {
@@ -144,7 +144,6 @@
   text-align: center;
   grid-area: head;
   padding: 5px;
-  /* margin-top: 20%; */
 }
 
 .aside-alojamiento p {
@@ -271,6 +270,31 @@
 .destinos__gallery {
   grid-area: gallery;
   margin-left: 50px;
+}
+
+.faq__grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+  grid-template-areas: "faq" "questions";
+}
+
+.faq__questions {
+  grid-area: faq;
+  width: 80vw;
+  margin: 1.5em auto 0;
+}
+
+.faq__btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: questions;
+  margin-top: 20px;
+}
+.faq__btn-container button {
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=main.css.map */

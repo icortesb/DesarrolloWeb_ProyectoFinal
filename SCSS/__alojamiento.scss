@@ -32,8 +32,7 @@
   }
 
   &__img-container {
-    width: 250px;
-    height: 250px;
+    @include w-h(250px, 250px);
     display: flex;
     overflow: hidden;
 
@@ -67,12 +66,11 @@
 }
 
 .aside-alojamiento {
+  @include w-h(30vw, 90vh);
   grid-area: aside;
   border-radius: 12px;
   padding: 10px;
   margin: auto 0;
-  height: 90vh;
-  width: 30vw;
   background-image: url(../assets/aside-alojamiento.jpg);
   color: $black;
 }

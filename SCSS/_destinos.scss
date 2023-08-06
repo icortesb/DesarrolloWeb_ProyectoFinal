@@ -2,12 +2,11 @@
 
 .destinos {
   &__flex-container {
+    @include w-h(800px, 800px);
     margin: 5px auto 0;
     display: flex;
     justify-content: center;
     padding: 5px;
-    width: 800px;
-    height: 800px;
     overflow: hidden;
     flex-flow: wrap;
   }
@@ -36,8 +35,7 @@
   }
 
   &__img-container img {
-    width: 100%;
-    height: 100%;
+    @include w-h(100%, 100%);
     object-fit: cover;
     filter: brightness(70%);
   }

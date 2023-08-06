@@ -1,3 +1,14 @@
+@mixin w-h($w, $h) {
+  width: $w;
+  height: $h;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @mixin grid($columns, $rows, $gap) {
   display: grid;
   grid-template-columns: repeat($columns, 1fr);
@@ -9,10 +20,4 @@
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-areas: "img head";
-}
-
-@mixin flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

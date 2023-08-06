@@ -89,12 +89,12 @@
 }
 
 .aside-alojamiento {
+  width: 30vw;
+  height: 90vh;
   grid-area: aside;
   border-radius: 12px;
   padding: 10px;
   margin: auto 0;
-  height: 90vh;
-  width: 30vw;
   background-image: url(../assets/aside-alojamiento.jpg);
   color: #212529;
 }
@@ -176,12 +176,12 @@
 }
 
 .destinos__flex-container {
+  width: 800px;
+  height: 800px;
   margin: 5px auto 0;
   display: flex;
   justify-content: center;
   padding: 5px;
-  width: 800px;
-  height: 800px;
   overflow: hidden;
   flex-flow: wrap;
 }

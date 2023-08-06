@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    transition: transform 0.3s ease;
+    transition: $transform;
 
     &:hover {
       transform: translate(0px, -10px);

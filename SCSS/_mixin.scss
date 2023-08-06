@@ -1,0 +1,11 @@
+@mixin grid($columns, $rows, $gap) {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+  grid-gap: $gap;
+}
+
+@mixin alojamiento-grid-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "img head";
+}

@@ -1,0 +1,133 @@
+// Alojamiento
+
+.alojamiento {
+  &__grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      " aside card-uno card-dos "
+      " aside card-tres card-cuatro "
+      " aside card-cinco card-seis ";
+    gap: 7px;
+    margin-top: 20px;
+    & a {
+      text-decoration: none;
+      color: $black;
+    }
+    & a:hover img {
+      filter: brightness(100%);
+    }
+  }
+
+  &__card {
+    @include alojamiento-grid-card;
+    border-radius: 16px;
+    transition: $transform;
+    padding: 10px;
+
+    &__card:hover {
+      transform: translate(-10px);
+    }
+  }
+
+  &__img-container {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    overflow: hidden;
+
+    img {
+      filter: brightness(70%);
+    }
+  }
+
+  &__card__body {
+    padding: 10px;
+  }
+}
+// Grid area para las imagenes
+.img-card-uno {
+  grid-area: img;
+}
+
+.body-card-uno {
+  grid-area: head;
+}
+
+.img-card-dos {
+  grid-area: img;
+}
+
+.body-card-dos {
+  grid-area: head;
+}
+
+.img-card-tres {
+  grid-area: img;
+}
+
+.body-card-tres {
+  grid-area: head;
+}
+
+.img-card-cuatro {
+  grid-area: img;
+}
+
+.body-card-cuatro {
+  grid-area: head;
+}
+
+.img-card-cinco {
+  grid-area: img;
+}
+
+.body-card-cinco {
+  grid-area: head;
+}
+
+.img-card-seis {
+  grid-area: img;
+}
+
+.body-card-seis {
+  grid-area: head;
+}
+
+.aside-alojamiento {
+  grid-area: aside;
+  border-radius: 12px;
+  padding: 10px;
+  margin: auto 0;
+  height: 90vh;
+  width: 30vw;
+  background-image: url(../assets/aside-alojamiento.jpg);
+  color: #212529;
+}
+
+.text-aside-container {
+  border-radius: 6px;
+  margin-top: 40%;
+  height: auto;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "head"
+    "body";
+  background-color: #f7f7f7ab;
+  color: #212529;
+}
+
+.aside-alojamiento h5 {
+  text-align: center;
+  grid-area: head;
+  padding: 5px;
+  /* margin-top: 20%; */
+}
+
+.aside-alojamiento p {
+  grid-area: body;
+  padding: 5px;
+}

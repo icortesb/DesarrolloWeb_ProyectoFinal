@@ -1,6 +1,8 @@
 @import "./vars.scss";
+@import "./mixin.scss";
 @import "./reset.scss";
-@import './components.scss';
+@import "./components.scss";
 @import "./index.scss";
-@import './actividades.scss';
+@import "./_alojamiento.scss";
+@import "./actividades.scss";
 @import "./destinos.scss";

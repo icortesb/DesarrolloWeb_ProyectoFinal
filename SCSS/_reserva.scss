@@ -1,0 +1,26 @@
+// Reserva
+
+.reserva {
+  &__form-container {
+    width: 80%;
+    padding: 20px;
+  }
+
+  &__page-container {
+    @include flex-center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/booking-fondo.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__form-card {
+    @include flex-center;
+    background-color: $grey;
+    border-radius: 24px;
+    width: 500px;
+    height: 600px;
+    margin: 90px auto 0;
+  }
+}

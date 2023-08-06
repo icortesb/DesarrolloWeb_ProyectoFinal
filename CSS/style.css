@@ -124,12 +124,13 @@
   margin-left: 50px;
 }
 
+
+/* Form */
+
 .form-container {
   width: 80%;
   padding: 20px;
 }
-
-/* Form */
 
 .foto-reserva-grid img {
   max-width: 100%;

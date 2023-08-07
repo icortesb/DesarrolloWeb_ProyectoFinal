@@ -2,10 +2,9 @@
 
 .destinos {
   &__flex-container {
-    @include w-h(800px, 800px);
+    @include w-h(40vw, 80vh);
     @include grid(2, 2, 5px);
     margin: 5px auto 0;
-    display: grid;
     justify-content: center;
     padding: 5px;
     grid-template-areas:

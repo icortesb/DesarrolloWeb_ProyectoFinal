@@ -183,14 +183,13 @@
 }
 
 .destinos__flex-container {
-  width: 800px;
-  height: 800px;
+  width: 40vw;
+  height: 80vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 5px;
   margin: 5px auto 0;
-  display: grid;
   justify-content: center;
   padding: 5px;
   grid-template-areas: "img-uno img-dos" "img-tres img-cuatro";
@@ -355,7 +354,9 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    grid-gap: 5px;
+    grid-gap: 4px;
+    width: 100vw;
+    height: 80vh;
     grid-template-areas: "img-uno" "img-dos" "img-tres" "img-cuatro";
     padding: 0px;
   }
@@ -363,7 +364,6 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, auto);
-    gap: 5px;
     grid-template-areas: "gallery" "aside";
   }
   .destinos__gallery {
@@ -377,6 +377,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    margin: 0px;
   }
   .destinos__aside p {
     font-size: smaller;

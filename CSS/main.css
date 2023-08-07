@@ -27,6 +27,17 @@
   margin: 30px auto;
 }
 
+.btn-enviar {
+  background-color: rgba(247, 247, 247, 0.6705882353);
+  border: 1px solid #bc1e2c;
+  color: #bc1e2c;
+}
+.btn-enviar:hover {
+  background-color: #bc1e2c;
+  color: #f7f7f7;
+  border: 1px solid #bc1e2c;
+}
+
 .carousel-item img {
   filter: brightness(70%);
 }
@@ -303,16 +314,6 @@
 .reserva__form-container {
   width: 80%;
   padding: 20px;
-}
-.reserva__btn-enviar {
-  background-color: rgba(247, 247, 247, 0.6705882353);
-  border: 1px solid #bc1e2c;
-  color: #bc1e2c;
-}
-.reserva__btn-enviar:hover {
-  background-color: #bc1e2c;
-  color: #f7f7f7;
-  border: 1px solid #bc1e2c;
 }
 .reserva__page-container {
   display: flex;

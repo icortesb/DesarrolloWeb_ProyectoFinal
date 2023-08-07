@@ -5,17 +5,6 @@
     width: 80%;
     padding: 20px;
   }
-  &__btn-enviar {
-    background-color: $grey;
-    border: 1px solid #bc1e2c;
-    color: #bc1e2c;
-
-    &:hover {
-      background-color: #bc1e2c;
-      color: $white;
-      border: 1px solid #bc1e2c;
-    }
-  }
 
   &__page-container {
     @include flex-center;

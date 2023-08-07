@@ -97,18 +97,24 @@
   margin: 0.5em auto 0;
   background-image: url(../assets/aside-alojamiento.jpg);
   color: #212529;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .text-aside-container {
+  position: absolute;
+  top: 2em;
+  width: 90%;
+  height: 90%;
   border-radius: 6px;
-  margin-top: 40%;
-  height: auto;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto 1fr;
   grid-template-areas: "head" "body";
   background-color: rgba(247, 247, 247, 0.6705882353);
   color: #212529;
+  padding: 20px;
 }
 
 .aside-alojamiento h5 {
@@ -120,6 +126,7 @@
 .aside-alojamiento p {
   grid-area: body;
   padding: 5px;
+  overflow: auto;
 }
 
 .actividades__grid-container {

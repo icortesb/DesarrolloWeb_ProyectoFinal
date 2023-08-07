@@ -28,10 +28,8 @@
 
   &__form-card {
     @include flex-center;
+    @include w-h(50vw, 90vh);
     background-color: $grey;
     border-radius: 24px;
-    width: 500px;
-    height: 600px;
-    margin: 90px auto 0;
   }
 }

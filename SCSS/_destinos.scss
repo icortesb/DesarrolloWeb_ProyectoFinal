@@ -4,34 +4,54 @@
   &__flex-container {
     @include w-h(800px, 800px);
     margin: 5px auto 0;
-    display: flex;
+    display: grid;
     justify-content: center;
     padding: 5px;
-    overflow: hidden;
-    flex-flow: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "img-uno img-dos"
+      "img-tres img-cuatro";
+    gap: 5px;
+  }
+
+  &__img-uno {
+    grid-area: img-uno;
+    &:hover {
+      transform: translate(-10px, -10px);
+      transition: $transform;
+    }
+  }
+
+  &__img-dos {
+    grid-area: img-dos;
+    &:hover {
+      transform: translate(10px, -10px);
+      transition: $transform;
+    }
+  }
+
+  &__img-tres {
+    grid-area: img-tres;
+    &:hover {
+      transform: translate(-10px, 10px);
+      transition: $transform;
+    }
+  }
+
+  &__img-cuatro {
+    grid-area: img-cuatro;
+    &:hover {
+      transform: translate(10px, 10px);
+      transition: $transform;
+    }
   }
 
   &__img-container {
+    @include w-h(100%, 100%);
     position: relative;
-    padding: 5px;
-    width: 50%;
-    transition: $transform;
-  }
-
-  &__img-uno:hover {
-    transform: translate(-10px, -10px);
-  }
-
-  &__img-dos:hover {
-    transform: translate(10px, -10px);
-  }
-
-  &__img-tres:hover {
-    transform: translate(-10px, 10px);
-  }
-
-  &__img-cuatro:hover {
-    transform: translate(10px, 10px);
+    overflow: hidden;
+    border-radius: 8px;
   }
 
   &__img-container img {

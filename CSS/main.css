@@ -179,29 +179,48 @@
   width: 800px;
   height: 800px;
   margin: 5px auto 0;
-  display: flex;
+  display: grid;
   justify-content: center;
   padding: 5px;
-  overflow: hidden;
-  flex-flow: wrap;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "img-uno img-dos" "img-tres img-cuatro";
+  gap: 5px;
 }
-.destinos__img-container {
-  position: relative;
-  padding: 5px;
-  width: 50%;
-  transition: transform 0.3s ease;
+.destinos__img-uno {
+  grid-area: img-uno;
 }
 .destinos__img-uno:hover {
   transform: translate(-10px, -10px);
+  transition: transform 0.3s ease;
+}
+.destinos__img-dos {
+  grid-area: img-dos;
 }
 .destinos__img-dos:hover {
   transform: translate(10px, -10px);
+  transition: transform 0.3s ease;
+}
+.destinos__img-tres {
+  grid-area: img-tres;
 }
 .destinos__img-tres:hover {
   transform: translate(-10px, 10px);
+  transition: transform 0.3s ease;
+}
+.destinos__img-cuatro {
+  grid-area: img-cuatro;
 }
 .destinos__img-cuatro:hover {
   transform: translate(10px, 10px);
+  transition: transform 0.3s ease;
+}
+.destinos__img-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
 }
 .destinos__img-container img {
   width: 100%;
@@ -274,6 +293,16 @@
   width: 80%;
   padding: 20px;
 }
+.reserva__btn-enviar {
+  background-color: rgba(247, 247, 247, 0.6705882353);
+  border: 1px solid #bc1e2c;
+  color: #bc1e2c;
+}
+.reserva__btn-enviar:hover {
+  background-color: #bc1e2c;
+  color: #f7f7f7;
+  border: 1px solid #bc1e2c;
+}
 .reserva__page-container {
   display: flex;
   justify-content: center;
@@ -304,6 +333,7 @@
   .quote__container {
     width: 100svw;
   }
+  /* Destinos */
   /* Alojamiento */
   .alojamiento__grid-container {
     display: grid;
@@ -342,6 +372,9 @@
   .actividades__card:hover {
     transform: none;
   }
+}
+.reserva__form-card {
+  margin-top: -15em;
 }
 
 /*# sourceMappingURL=main.css.map */

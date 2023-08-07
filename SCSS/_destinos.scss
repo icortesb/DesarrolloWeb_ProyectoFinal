@@ -78,6 +78,7 @@
   &__grid-container {
     @include grid(2, 1, 0px);
     grid-template-areas: "gallery aside";
+    max-width: 100vw;
   }
 
   &__aside {

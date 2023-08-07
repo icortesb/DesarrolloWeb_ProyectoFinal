@@ -255,6 +255,7 @@
   grid-template-rows: repeat(1, 1fr);
   grid-gap: 0px;
   grid-template-areas: "gallery aside";
+  max-width: 100vw;
 }
 .destinos__aside {
   display: flex;

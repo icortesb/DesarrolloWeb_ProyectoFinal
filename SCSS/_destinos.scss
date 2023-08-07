@@ -3,12 +3,11 @@
 .destinos {
   &__flex-container {
     @include w-h(800px, 800px);
+    @include grid(2, 2, 5px);
     margin: 5px auto 0;
     display: grid;
     justify-content: center;
     padding: 5px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     grid-template-areas:
       "img-uno img-dos"
       "img-tres img-cuatro";
@@ -77,10 +76,8 @@
   // Grid para el aside
 
   &__grid-container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "aside gallery";
+    @include grid(2, 1, 0px);
+    grid-template-areas: "gallery aside";
   }
 
   &__aside {

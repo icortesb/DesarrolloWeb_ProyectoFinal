@@ -255,6 +255,7 @@
   align-items: center;
   grid-area: aside;
   position: relative;
+  max-width: 100%;
 }
 .destinos__aside p {
   position: absolute;
@@ -310,20 +311,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100%;
+  width: 100vw;
+  height: 94vh;
+  align-items: flex-start;
   background-image: url(../assets/booking-fondo.jpg);
   background-size: cover;
   background-position: center;
+  overflow-y: hidden;
 }
 .reserva__form-card {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50vw;
-  height: 90vh;
+  height: 70vh;
   background-color: rgba(247, 247, 247, 0.6705882353);
   border-radius: 24px;
+  margin-top: 1em;
 }
 
 /* Small devices */
@@ -365,12 +369,10 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    max-width: 100vw;
   }
   .destinos__aside p {
-    position: static;
-    margin: 5px;
     font-size: smaller;
+    width: 80vw;
   }
   /* Alojamiento */
   .alojamiento__grid-container {
@@ -409,6 +411,12 @@
   }
   .actividades__card:hover {
     transform: none;
+  }
+  .reserva__form-card {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0px;
+    margin: 0px;
   }
 }
 

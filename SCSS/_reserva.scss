@@ -19,17 +19,20 @@
 
   &__page-container {
     @include flex-center;
-    height: 100vh;
-    width: 100%;
+    @include w-h(100vw, 94vh);
+    align-items: flex-start;
     background-image: url(../assets/booking-fondo.jpg);
     background-size: cover;
     background-position: center;
+    overflow-y: hidden;
   }
 
   &__form-card {
     @include flex-center;
-    @include w-h(50vw, 90vh);
+    @include w-h(50vw, 70vh);
     background-color: $grey;
     border-radius: 24px;
+    margin-top: 1em;
   }
+
 }

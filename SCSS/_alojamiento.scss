@@ -95,14 +95,15 @@
   padding: 20px;
 }
 
-.aside-alojamiento h5 {
-  text-align: center;
-  grid-area: head;
-  padding: 5px;
-}
-
-.aside-alojamiento p {
-  grid-area: body;
-  padding: 5px;
-  overflow: auto;
+.aside-alojamiento {
+  h5 {
+    text-align: center;
+    grid-area: head;
+    padding: 5px;
+  }
+  p {
+    grid-area: body;
+    padding: 5px;
+    overflow: auto;
+  }
 }

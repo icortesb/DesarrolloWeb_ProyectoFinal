@@ -88,8 +88,10 @@
       transition: $transform;
       padding: 10px;
 
-      &__body p {
-        font-size: small;
+      &__body {
+        p {
+          font-size: small;
+        }
       }
     }
   }

@@ -38,7 +38,7 @@
   border: 1px solid #bc1e2c;
 }
 
-.carousel-item img {
+.carrousel-item img {
   filter: brightness(70%);
 }
 
@@ -133,7 +133,6 @@
   grid-area: head;
   padding: 5px;
 }
-
 .aside-alojamiento p {
   grid-area: body;
   padding: 5px;
@@ -250,7 +249,7 @@
 .destinos__img-container img:hover {
   filter: brightness(90%);
 }
-.destinos__img-container span {
+.destinos__img-container img span {
   color: #f7f7f7;
   position: absolute;
   bottom: 20%;

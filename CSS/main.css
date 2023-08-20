@@ -38,7 +38,7 @@
   border: 1px solid #bc1e2c;
 }
 
-.carrousel-item img {
+.carousel-item img {
   filter: brightness(70%);
 }
 

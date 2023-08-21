@@ -5,3 +5,25 @@
     filter: brightness(70%);
   }
 }
+
+.index {
+  &__icons__grid__container {
+    @include grid(3, 1, 1px);
+    border: 1px solid red;
+    justify-content: center;
+    &__item {
+      @include flex-center;
+      border: 1px solid lightgreen;
+      background-color: #65a46d;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+      i {
+        font-size: 48px;
+      }
+    }
+  }
+}
+
+

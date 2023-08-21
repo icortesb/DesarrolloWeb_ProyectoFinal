@@ -64,6 +64,22 @@
 .index__icons__grid__container__item i {
   font-size: 48px;
 }
+.index__desc__grid__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 1px;
+  border: 1px solid red;
+  height: auto;
+}
+.index__desc__grid__container__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid lightgreen;
+  padding: 0.5em;
+  text-align: center;
+}
 
 .alojamiento__grid-container {
   display: grid;

@@ -34,12 +34,14 @@
 
 .btn-enviar {
   background-color: $grey;
-  border: 1px solid #bc1e2c;
-  color: #bc1e2c;
+  border: 1px solid #65a46d;
+  box-shadow: 1px 1px 0px 0px #65a46d;
+  color: #65a46d;
 
   &:hover {
-    background-color: #bc1e2c;
+    background-color: #65a46d;
     color: $white;
-    border: 1px solid #bc1e2c;
+    border: 1px solid #65a46d;
+    box-shadow: none;
   }
 }

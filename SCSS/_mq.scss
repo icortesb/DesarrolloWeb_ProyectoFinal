@@ -12,6 +12,15 @@
     width: 100svw;
   }
 
+  .index {
+    &__desc__grid__container {
+      &__item {
+        font-size: small;
+        text-align: left;
+      }
+    }
+  }
+
   /* Destinos */
 
   .destinos {

@@ -230,6 +230,13 @@
 }
 .actividades__btn button {
   color: #f7f7f7;
+  background-color: #65a46d;
+  color: #f7f7f7;
+  border: 1px solid #65a46d;
+  box-shadow: none;
+}
+.actividades__btn:hover {
+  color: #f7f7f7;
 }
 
 .destinos__flex-container {
@@ -289,14 +296,17 @@
 .destinos__img-container img:hover {
   filter: brightness(90%);
 }
-.destinos__img-container img span {
+.destinos__img-container span {
   color: #f7f7f7;
   position: absolute;
-  bottom: 20%;
+  bottom: 5%;
   left: 40%;
   z-index: 2;
   font-size: larger;
   pointer-events: none;
+  background-color: rgba(101, 164, 109, 0.5098039216);
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 .destinos__grid-container {
   display: grid;
@@ -385,6 +395,10 @@
   }
   .quote__container {
     width: 100svw;
+  }
+  .index__desc__grid__container__item {
+    font-size: small;
+    text-align: left;
   }
   /* Destinos */
   .destinos__img-uno:hover, .destinos__img-dos:hover, .destinos__img-tres:hover, .destinos__img-cuatro:hover {

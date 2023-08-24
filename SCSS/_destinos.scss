@@ -58,16 +58,18 @@
       &:hover {
         filter: brightness(90%);
       }
-
-      span {
-        color: $white;
-        position: absolute;
-        bottom: 20%;
-        left: 40%;
-        z-index: 2;
-        font-size: larger;
-        pointer-events: none;
-      }
+    }
+    span {
+      color: $white;
+      position: absolute;
+      bottom: 5%;
+      left: 40%;
+      z-index: 2;
+      font-size: larger;
+      pointer-events: none;
+      background-color: #65a46d82;
+      padding: 5px 10px;
+      border-radius: 5px;
     }
   }
 

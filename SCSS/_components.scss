@@ -27,21 +27,21 @@
 .quote__container {
   width: 50svw;
   margin: 30px auto;
-  border: 3px solid #65a46d;
+  border: 3px solid $green;
 }
 
 // Boton enviar
 
 .btn-enviar {
   background-color: $grey;
-  border: 1px solid #65a46d;
-  box-shadow: 1px 1px 0px 0px #65a46d;
-  color: #65a46d;
+  border: 1px solid $green;
+  box-shadow: 1px 1px 0px 0px $green;
+  color: $green;
 
   &:hover {
-    background-color: #65a46d;
+    background-color: $green;
     color: $white;
-    border: 1px solid #65a46d;
+    border: 1px solid $green;
     box-shadow: none;
   }
 }

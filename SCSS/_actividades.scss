@@ -55,6 +55,14 @@
     margin-bottom: 20px;
     button {
       color: $white;
+      background-color: $green;
+      color: $white;
+      border: 1px solid $green;
+      box-shadow: none;
     }
+    &:hover {
+      color: $white;
+    }
+
   }
 }
